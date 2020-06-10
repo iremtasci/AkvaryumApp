@@ -1,0 +1,2179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Bu dosya, Web projenizin yayımlama/paket işlemi tarafından kullanılıyor. MSBuild dosyasını düzenleyerek
+bu işlemin davranışını düzenleyebilirsiniz. Bununla ilgili daha fazla bilgi edinmek için https://go.microsoft.com/fwlink/?LinkID=208121 adresini ziyaret edin. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\User\Desktop\Yeni klasör</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Admin.Master">
+      <publishTime>05/26/2020 00:56:31</publishTime>
+    </File>
+    <File Include="AdminSayfalar/BlogGuncelle.aspx">
+      <publishTime>05/23/2020 11:34:40</publishTime>
+    </File>
+    <File Include="AdminSayfalar/Bloglar.aspx">
+      <publishTime>05/26/2020 00:52:36</publishTime>
+    </File>
+    <File Include="AdminSayfalar/BlogSil.aspx">
+      <publishTime>05/22/2020 15:32:32</publishTime>
+    </File>
+    <File Include="AdminSayfalar/istatistikler.aspx">
+      <publishTime>05/23/2020 11:36:46</publishTime>
+    </File>
+    <File Include="AdminSayfalar/YeniBlog.aspx">
+      <publishTime>05/23/2020 11:34:44</publishTime>
+    </File>
+    <File Include="AdminSayfalar/YorumGuncelle.aspx">
+      <publishTime>05/23/2020 11:40:09</publishTime>
+    </File>
+    <File Include="AdminSayfalar/Yorumlar.aspx">
+      <publishTime>05/23/2020 11:39:13</publishTime>
+    </File>
+    <File Include="AdminSayfalar/YorumSil.aspx">
+      <publishTime>05/22/2020 15:46:34</publishTime>
+    </File>
+    <File Include="arama.aspx">
+      <publishTime>05/26/2020 00:51:13</publishTime>
+    </File>
+    <File Include="bin/AkvaryumApp.dll">
+      <publishTime>05/26/2020 01:07:14</publishTime>
+    </File>
+    <File Include="bin/AkvaryumApp.pdb">
+      <publishTime>05/26/2020 01:07:14</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>06/07/2018 11:03:48</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>06/07/2018 11:03:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="blog/css/style.css">
+      <publishTime>05/24/2020 12:17:17</publishTime>
+    </File>
+    <File Include="blog/images/bg.jpg">
+      <publishTime>05/23/2020 11:52:07</publishTime>
+    </File>
+    <File Include="blog/index.html">
+      <publishTime>05/23/2020 11:17:03</publishTime>
+    </File>
+    <File Include="blog/w3layouts-License.txt">
+      <publishTime>05/23/2020 11:17:03</publishTime>
+    </File>
+    <File Include="BlogDetay.aspx">
+      <publishTime>05/25/2020 22:27:17</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>05/26/2020 00:41:33</publishTime>
+    </File>
+    <File Include="Denemeee.aspx">
+      <publishTime>05/23/2020 01:03:09</publishTime>
+    </File>
+    <File Include="Entity/Model1.edmx.diagram">
+      <publishTime>05/22/2020 18:48:59</publishTime>
+    </File>
+    <File Include="Giris.Master">
+      <publishTime>05/26/2020 00:31:09</publishTime>
+    </File>
+    <File Include="Hakkimda.aspx">
+      <publishTime>05/23/2020 01:36:32</publishTime>
+    </File>
+    <File Include="iletisim.aspx">
+      <publishTime>05/23/2020 01:36:17</publishTime>
+    </File>
+    <File Include="KategoriDetay.aspx">
+      <publishTime>05/23/2020 01:35:50</publishTime>
+    </File>
+    <File Include="Kullanici.Master">
+      <publishTime>05/23/2020 00:53:36</publishTime>
+    </File>
+    <File Include="KullaniciLogin.aspx">
+      <publishTime>05/23/2020 14:47:15</publishTime>
+    </File>
+    <File Include="KullaniciSayfalar/Blog.aspx">
+      <publishTime>05/26/2020 00:52:27</publishTime>
+    </File>
+    <File Include="KullaniciSayfalar/BlogEkle.aspx">
+      <publishTime>05/26/2020 00:54:53</publishTime>
+    </File>
+    <File Include="KullaniciSayfalar/istatistikler.aspx">
+      <publishTime>05/26/2020 00:49:44</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>05/23/2020 14:45:37</publishTime>
+    </File>
+    <File Include="login/css/style.css">
+      <publishTime>05/23/2020 11:52:56</publishTime>
+    </File>
+    <File Include="login/images/b1.jpg">
+      <publishTime>05/23/2020 11:53:25</publishTime>
+    </File>
+    <File Include="login/index.html">
+      <publishTime>05/23/2020 11:52:56</publishTime>
+    </File>
+    <File Include="underwater/about.html">
+      <publishTime>05/23/2020 01:09:46</publishTime>
+    </File>
+    <File Include="underwater/blog.html">
+      <publishTime>05/23/2020 01:09:46</publishTime>
+    </File>
+    <File Include="underwater/images/arrow.gif">
+      <publishTime>05/23/2020 01:09:46</publishTime>
+    </File>
+    <File Include="underwater/images/bg1.jpg">
+      <publishTime>05/23/2020 01:09:46</publishTime>
+    </File>
+    <File Include="underwater/images/bottom.jpg">
+      <publishTime>05/23/2020 01:09:46</publishTime>
+    </File>
+    <File Include="underwater/images/bullet.gif">
+      <publishTime>05/23/2020 01:09:46</publishTime>
+    </File>
+    <File Include="underwater/images/fish.jpg">
+      <publishTime>05/23/2020 01:09:46</publishTime>
+    </File>
+    <File Include="underwater/images/footbg.jpg">
+      <publishTime>05/23/2020 01:09:46</publishTime>
+    </File>
+    <File Include="underwater/images/glass.jpg">
+      <publishTime>05/23/2020 01:09:46</publishTime>
+    </File>
+    <File Include="underwater/images/kirmizi.jpg">
+      <publishTime>05/23/2020 01:47:16</publishTime>
+    </File>
+    <File Include="underwater/images/krmz.jpg">
+      <publishTime>05/23/2020 01:50:19</publishTime>
+    </File>
+    <File Include="underwater/images/mainbg.jpg">
+      <publishTime>05/23/2020 01:09:46</publishTime>
+    </File>
+    <File Include="underwater/images/rightbg.jpg">
+      <publishTime>05/23/2020 01:09:46</publishTime>
+    </File>
+    <File Include="underwater/images/underline.jpg">
+      <publishTime>05/23/2020 01:09:46</publishTime>
+    </File>
+    <File Include="underwater/index.html">
+      <publishTime>05/23/2020 01:09:46</publishTime>
+    </File>
+    <File Include="underwater/style.css">
+      <publishTime>05/26/2020 00:37:05</publishTime>
+    </File>
+    <File Include="underwater/styles.html">
+      <publishTime>05/23/2020 01:09:46</publishTime>
+    </File>
+    <File Include="Uye.Master">
+      <publishTime>05/23/2020 15:07:35</publishTime>
+    </File>
+    <File Include="veb/css/style.css">
+      <publishTime>05/23/2020 10:53:06</publishTime>
+    </File>
+    <File Include="veb/images/bg.jpg">
+      <publishTime>05/23/2020 11:04:08</publishTime>
+    </File>
+    <File Include="veb/images/dans.jpg">
+      <publishTime>05/23/2020 11:08:22</publishTime>
+    </File>
+    <File Include="veb/index.html">
+      <publishTime>05/23/2020 10:59:58</publishTime>
+    </File>
+    <File Include="veb/w3layouts-License.txt">
+      <publishTime>05/23/2020 10:53:06</publishTime>
+    </File>
+    <File Include="water/images/bgup.jpg">
+      <publishTime>05/23/2020 01:07:43</publishTime>
+    </File>
+    <File Include="water/images/blueline.jpg">
+      <publishTime>05/23/2020 01:07:43</publishTime>
+    </File>
+    <File Include="water/images/bubble.jpg">
+      <publishTime>05/23/2020 01:07:43</publishTime>
+    </File>
+    <File Include="water/images/fish.jpg">
+      <publishTime>05/23/2020 01:07:43</publishTime>
+    </File>
+    <File Include="water/images/seaweed.jpg">
+      <publishTime>05/23/2020 01:07:43</publishTime>
+    </File>
+    <File Include="water/images/topimage.jpg">
+      <publishTime>05/23/2020 01:07:43</publishTime>
+    </File>
+    <File Include="water/index.html">
+      <publishTime>05/23/2020 01:07:43</publishTime>
+    </File>
+    <File Include="water/style.css">
+      <publishTime>05/23/2020 01:07:43</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/22/2020 16:02:27</publishTime>
+    </File>
+    <File Include="web/about.html">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/contact.html">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/css/bootstrap.css">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/css/slider.css">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/css/style.css">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/destinations.html">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/about_banner.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/arrows.png">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/avatar.png">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/Beauty-of-Betta.png">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/beta.png">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/BETAAAA.png">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/BETALOGO.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/betayan.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/betta.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/BETTTAAA.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/but.png">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/contact.png">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/dest_banner.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/flight.png">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/food.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/glass.png">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/group.png">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/head_bg.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/head_bot.gif">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/icon3.png">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/img1.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/img2.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/img3.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/img4.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/japon.jpg">
+      <publishTime>05/22/2020 21:15:58</publishTime>
+    </File>
+    <File Include="web/images/key.png">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/link1-bg.gif">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/logo.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/logo.png">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/LOHGOOGOG.png">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/man.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/more.png">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/pic.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/pic1.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/pic10.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/pic2.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/pic3.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/pic4.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/pic5.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/pic6.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/pic7.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/pic8.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/pic9.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/post1.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/post2.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/post3.jpg">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/images/search.png">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/index.html">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/js/easing.js">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/js/jquery.min.js">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/js/move-top.js">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/js/responsiveslides.min.js">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/single.html">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/w3layouts-License.txt">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web/Yeni Metin Belgesi.txt">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web2/css/style.css">
+      <publishTime>05/22/2020 15:23:29</publishTime>
+    </File>
+    <File Include="web2/images/b1.jpg">
+      <publishTime>05/22/2020 23:28:17</publishTime>
+    </File>
+    <File Include="web2/index.html">
+      <publishTime>05/22/2020 23:28:29</publishTime>
+    </File>
+    <File Include="web3/blog-details.html">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/blog.html">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/contact.html">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/css/style.css">
+      <publishTime>05/23/2020 00:59:57</publishTime>
+    </File>
+    <File Include="web3/feature.html">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/b1.jpg">
+      <publishTime>05/22/2020 23:38:53</publishTime>
+    </File>
+    <File Include="web3/img/banner/banner-bg.png">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/banner/hero-banner.png">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/BETALOGO.jpg">
+      <publishTime>05/22/2020 23:10:19</publishTime>
+    </File>
+    <File Include="web3/img/blog/.DS_Store">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/add.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/author.png">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/blog1.png">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/blog2.png">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/blog3.png">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/c1.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/c2.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/c3.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/c4.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/c5.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/c6.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/cat-post/cat-post-1.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/cat-post/cat-post-2.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/cat-post/cat-post-3.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/causes/causes-1.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/causes/causes-2.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/causes/causes-3.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/feature-img1.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/latest-post/l-post-1.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/latest-post/l-post-2.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/latest-post/l-post-3.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/latest-post/l-post-4.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/main-blog/m-blog-1.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/main-blog/m-blog-2.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/main-blog/m-blog-3.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/main-blog/m-blog-4.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/main-blog/m-blog-5.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/next.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/popular-post/post1.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/popular-post/post2.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/popular-post/post3.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/popular-post/post4.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/post-img1.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/post-img2.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/blog/prev.jpg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/clients-logo/.DS_Store">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/clients-logo/c-logo-1.png">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/clients-logo/c-logo-2.png">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/clients-logo/c-logo-3.png">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/clients-logo/c-logo-4.png">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/clients-logo/c-logo-5.png">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/Fevicon.png">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/home/about.png">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/home/offer.png">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/home/solution.png">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/img/japon.jpg">
+      <publishTime>05/22/2020 23:46:25</publishTime>
+    </File>
+    <File Include="web3/img/kırmızı.jpeg">
+      <publishTime>05/23/2020 00:27:26</publishTime>
+    </File>
+    <File Include="web3/img/logo.jpg">
+      <publishTime>05/22/2020 23:50:16</publishTime>
+    </File>
+    <File Include="web3/img/logo.png">
+      <publishTime>05/23/2020 00:02:08</publishTime>
+    </File>
+    <File Include="web3/img/logom.png">
+      <publishTime>05/22/2020 23:51:38</publishTime>
+    </File>
+    <File Include="web3/img/logomm.png">
+      <publishTime>05/22/2020 23:55:47</publishTime>
+    </File>
+    <File Include="web3/img/testimonial/testimonial1.png">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/index.html">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/js/contact.js">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/js/jquery.ajaxchimp.min.js">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/js/jquery.form.js">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/js/jquery.validate.min.js">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/js/mail-script.js">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/js/main.js">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/css/font-awesome.min.css">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/css/main.css">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/css/normalize.min.css">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/fonts/fontawesome-webfont.eot">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/fonts/fontawesome-webfont.svg">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/fonts/fontawesome-webfont.ttf">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/fonts/fontawesome-webfont.woff">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/fonts/FontAwesome.otf">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/img/logo.png">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/img/Thumbs.db">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/index.html">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/js/custom.js">
+      <publishTime>05/22/2020 22:14:21</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/js/jquery-1.11.0.min.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/js/jquery.nav.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shAutoloader.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushAppleScript.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushAS3.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushBash.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushColdFusion.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushCpp.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushCSharp.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushCss.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushDelphi.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushDiff.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushErlang.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushGroovy.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushJava.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushJavaFX.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushJScript.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushPerl.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushPhp.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushPlain.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushPowerShell.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushPython.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushRuby.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushSass.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushScala.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushSql.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushVb.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shBrushXml.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shCore.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/scripts/shLegacy.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/styles/shCore.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/styles/shCoreDefault.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/styles/shCoreDjango.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/styles/shCoreEclipse.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/styles/shCoreEmacs.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/styles/shCoreFadeToGrey.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/styles/shCoreMDUltra.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/styles/shCoreMidnight.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/styles/shCoreRDark.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/styles/shThemeDefault.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/styles/shThemeDjango.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/styles/shThemeEclipse.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/styles/shThemeEmacs.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/styles/shThemeFadeToGrey.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/styles/shThemeMDUltra.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/styles/shThemeMidnight.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/Parason Software -doc/syntax-highlighter/styles/shThemeRDark.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/pricing.html">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/scss/style.scss">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/scss/theme/_banner.scss">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/scss/theme/_blog.scss">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/scss/theme/_btn.scss">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/scss/theme/_clients.scss">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/scss/theme/_contact.scss">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/scss/theme/_footer.scss">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/scss/theme/_header.scss">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/scss/theme/_home.scss">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/scss/theme/_mixins.scss">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/scss/theme/_reset.scss">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/scss/theme/_responsive.scss">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/scss/theme/_section-intro.scss">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/scss/theme/_variables.scss">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/bootstrap/bootstrap.bundle.min.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/bootstrap/bootstrap.min.css">
+      <publishTime>05/23/2020 00:59:57</publishTime>
+    </File>
+    <File Include="web3/vendors/contact.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/fontawesome/bootstrap.bundle.min.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/fontawesome/bootstrap.min.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/fontawesome/css/all.min.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/fontawesome/webfonts/fa-brands-400.eot">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/fontawesome/webfonts/fa-brands-400.ttf">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/fontawesome/webfonts/fa-brands-400.woff">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/fontawesome/webfonts/fa-brands-400.woff2">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/fontawesome/webfonts/fa-regular-400.eot">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/fontawesome/webfonts/fa-regular-400.ttf">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/fontawesome/webfonts/fa-regular-400.woff">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/fontawesome/webfonts/fa-regular-400.woff2">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/fontawesome/webfonts/fa-solid-900.eot">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/fontawesome/webfonts/fa-solid-900.ttf">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/fontawesome/webfonts/fa-solid-900.woff">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/fontawesome/webfonts/fa-solid-900.woff2">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/jquery.ajaxchimp.min.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/jquery.form.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/jquery.validate.min.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/jquery/jquery-3.2.1.min.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/linericon/.DS_Store">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/linericon/fonts/Linearicons-Free.eot">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/linericon/fonts/Linearicons-Free.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/linericon/fonts/Linearicons-Free.ttf">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/linericon/fonts/Linearicons-Free.woff">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/linericon/fonts/Linearicons-Free.woff2">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/linericon/style.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/mail-script.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/nice-select/jquery.nice-select.min.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/nice-select/nice-select.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/nouislider/nouislider.min.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/nouislider/nouislider.min.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/owl-carousel/owl.carousel.min.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/owl-carousel/owl.carousel.min.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/owl-carousel/owl.theme.default.min.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/skrollr.min.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/demo-files/demo.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/fonts/themify.eot">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/fonts/themify.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/fonts/themify.ttf">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/fonts/themify.woff">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/ie7/ie7.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/ie7/ie7.js">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/index.html">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/readme.txt">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/agenda.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/alarm-clock.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/alert.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/align-center.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/align-justify.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/align-left.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/align-right.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/anchor.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/android.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/angle-double-down.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/angle-double-left.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/angle-double-right.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/angle-double-up.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/angle-down.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/angle-left.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/angle-right.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/angle-up.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/announcement.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/apple.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/archive.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/arrow-circle-down.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/arrow-circle-left.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/arrow-circle-right.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/arrow-circle-up.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/arrow-down.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/arrow-left.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/arrow-right.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/arrow-top-left.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/arrow-top-right.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/arrow-up.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/arrow.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/arrows-corner.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/arrows-horizontal.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/arrows-vertical.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/back-left.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/back-right.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/bag.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/bar-chart-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/bar-chart.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/basketball.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/bell.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/blackboard.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/bolt-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/bolt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/book.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/bookmark-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/bookmark.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/briefcase.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/brush-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/brush.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/calendar.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/camera.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/car.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/check-box.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/check.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/clip.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/clipboard.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/close.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/cloud-down.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/cloud-up.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/cloud.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/comment-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/comment.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/comments-smiley.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/comments.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/control-backward.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/control-eject.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/control-forward.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/control-pause.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/control-play.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/control-record.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/control-shuffle.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/control-skip-backward.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/control-skip-forward.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/control-stop.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/credit-card.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/crown.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/css3.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/cup.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/cut.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/dashboard.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/desktop.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/direction-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/direction.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/download.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/dribbble.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/dropbox-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/dropbox.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/drupal.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/email.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/envelope.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/eraser.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/exchange-vertical.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/export.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/eye.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/face-sad.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/face-smile.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/facebook.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/file.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/files.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/filter.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/flag-alt-2.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/flag-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/flag.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/flickr-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/flickr.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/folder.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/fullscreen.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/gallery.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/game.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/gift.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/github.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/google.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/hand-drag.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/hand-open.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/hand-point-down.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/hand-point-left.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/hand-point-right.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/hand-point-up.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/hand-stop.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/harddrive.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/harddrives.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/headphone-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/headphone.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/heart-broken.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/heart.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/help-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/help.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/home.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/html5.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/hummer.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/id-badge.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/image.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/import.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/infinite.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/info-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/info.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/ink-pen.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/instagram.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/Italic.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/joomla.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/jsfiddle.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/key.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layers-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layers.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-accordion-list.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-accordion-merged.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-accordion-separated.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-column2-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-column2.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-column3-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-column3.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-column4-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-column4.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-cta-btn-left.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-cta-btn-right.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-cta-center.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-cta-left.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-cta-right.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-grid2-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-grid2-thumb.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-grid2.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-grid3-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-grid3.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-grid4-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-grid4.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-line-solid.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-list-large-image.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-list-post.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-list-thumb-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-list-thumb.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-media-center-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-media-center.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-media-left-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-media-left.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-media-overlay-alt-2.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-media-overlay-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-media-overlay.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-media-right-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-media-right.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-menu-full.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-menu-separated.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-menu-v.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-menu.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-placeholder.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-sidebar-2.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-sidebar-left.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-sidebar-none.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-sidebar-right.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-slider-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-slider.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-tab-min.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-tab-v.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-tab-window.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-tab.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-width-default-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-width-default.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout-width-full.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/layout.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/light-bulb.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/line-dashed.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/line-dotted.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/line-double.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/link.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/linkedin.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/linux.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/list-ol.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/list.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/location-arrow.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/location-pin.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/lock.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/loop.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/magnet.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/map-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/map.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/marker-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/marker.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/medall-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/medall.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/menu-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/menu.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/microphone-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/microphone.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/microsoft-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/microsoft.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/minus.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/mobile.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/money.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/more-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/more.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/mouse-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/mouse.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/music-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/music.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/na.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/new-window.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/notepad.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/package.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/paint-bucket.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/paint-roller.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/palette.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/panel.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/paragraph.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/pencil-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/pencil-alt2.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/pencil.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/pie-chart.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/pin-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/pin.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/pin2.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/pinterest-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/pinterest.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/plug.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/plus.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/power-off.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/printer.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/pulse.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/quote-left.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/quote-right.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/receipt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/reddit.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/reload.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/rocket.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/rss-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/rss.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/ruler-alt-2.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/ruler-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/ruler-pencil.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/ruler.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/save-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/save.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/search.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/server.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/settings.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/share-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/share.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/sharethis-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/sharethis.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/shield.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/shift-left-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/shift-left.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/shift-right-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/shift-right.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/shine.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/shopping-cart-full.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/shopping-cart.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/shortcode.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/signal.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/skype.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/slice.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/smallcap.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/soundcloud.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/split-h.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/split-v-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/split-v.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/spray.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/stack-overflow.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/stamp.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/star.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/stats-down.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/stats-up.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/support.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/tablet.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/tag.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/target.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/text.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/themify-favicon-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/themify-favicon.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/themify-logo.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/thought.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/thumb-down.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/thumb-up.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/ticket.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/time.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/timer.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/trash.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/trello.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/truck.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/tumblr-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/tumblr.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/twitter-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/twitter.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/underline.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/unlink.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/unlock.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/upload.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/uppercase.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/user.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/vector.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/video-camera.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/video-clapper.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/view-grid.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/view-list-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/view-list.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/vimeo-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/vimeo.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/volume.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/wallet.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/wand.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/wheelchair.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/widget-alt.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/widget.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/widgetized.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/window.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/wordpress.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/world.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/write.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/yahoo.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/youtube.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/zip.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/zoom-in.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/SVG/zoom-out.svg">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/Themify IconFonts 5-23-2014.json">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+    <File Include="web3/vendors/themify-icons/themify-icons.css">
+      <publishTime>05/22/2020 22:14:22</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

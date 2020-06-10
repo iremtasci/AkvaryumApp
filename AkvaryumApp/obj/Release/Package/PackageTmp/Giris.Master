@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Giris.master.cs" Inherits="AkvaryumApp.Giris" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <link href="underwater/style.css" rel="stylesheet" />
+    <title>AKVARYUM BLOG</title>
+    <meta http-equiv="Content-Type" content="underwater/text/html; charset=utf-8" />
+    <link rel="stylesheet" type="underwater/text/css" href="underwater/style.css" media="screen" title="style (screen)" />
+</head>
+<body>
+    <div class="wrap">
+        <h1>AKVARYUM BLOG<br />
+            <span>En Derinlerde...</span></h1>
+        <div id="nav">
+            <ul>
+                <li class="active"><a href="Default.Aspx">ANASAYFA</a></li>
+                <li><a href="Hakkimda.Aspx">HAKKIMIZDA</a></li>
+                <li><a href="iletisim.aspx">İLETİŞİM</a></li>
+                <li><a href="KullaniciLogin.aspx">GİRİŞ YAP</a></li>
+                
+
+            </ul>
+           
+            <div class="clearer">&nbsp;</div>
+        </div>
+
+
+        <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <!---->
+        <div class="footer">
+            <div class="container">
+            </div>
+        </div>
+        <p>Copyrights © 2020 Akvaryum Blog Tüm Hakları Saklıdır</p>
+</body>
+</html>
