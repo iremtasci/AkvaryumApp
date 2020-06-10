@@ -1,3 +1,3 @@
 # AkvaryumApp
-.sln şeklinde verilmiştir.
+
  
